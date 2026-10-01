@@ -1,0 +1,19 @@
+# Dados descarregados e tratados pela aplicacao
+dados_servidores_siape/
+
+# Configuracao local (contem caminhos e a palavra-passe do MySQL)
+config_execucao.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# O executavel fica na pagina de Releases, nao no codigo
+*.exe
